@@ -3,6 +3,7 @@ site_name: RHoA Docs
 site_description: 'Documentation on different platforms, builds, information necessary and informative on Planteside 2 gameplay'
 copyright: 'Copyright &copy; 2020 RHoA'
 show_downloads: true
+theme: jekyll-theme-modernist
 
 
 # Where things are
@@ -11,11 +12,6 @@ encoding: UTF-8
 plugins_dir: _plugins
 layouts: _layouts
 data_dir: _data
-
-# Theme assets
-theme: jekyll-theme-modernist
-favicon: '_data/icons/favicon.ico'
-logo: '_data/images/logo.svg'
 
 # Handling Reading
 safe                : false
