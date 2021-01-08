@@ -16,22 +16,22 @@ extra:
 
 # Where things are
 source: .
-encoding: UTF-8
+# encoding: UTF-8
 plugins_dir: _plugins
 layouts: _layouts
 data_dir: _data
 
 # Handling Reading
-safe                : false
-include             : [".htaccess"]
-keep_files          : [".git", ".svn"]
-markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
-strict_front_matter : false
+# safe                : false
+# include             : [".htaccess"]
+# keep_files          : [".git", ".svn"]
+# markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+# strict_front_matter : false
 
-liquid:
-  error_mode        : warn
-  strict_filters    : false
-  strict_variables  : false
+# liquid:
+#   error_mode        : warn
+#   strict_filters    : false
+#   strict_variables  : false
 
 # # Markdown Processors
 # kramdown:
