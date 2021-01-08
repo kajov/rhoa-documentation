@@ -2,20 +2,45 @@
 site_name: RHoA Docs
 site_description: 'Documentation on different platforms, builds, information necessary and informative on Planteside 2 gameplay'
 copyright: 'Copyright &copy; 2020 RHoA'
+show_downloads: true
+
+# Social Accounts:
 
 # Where things are
+source: .
 # encoding: UTF-8
 plugins_dir: _plugins
 layouts: _layouts
 data_dir: _data
-theme: jekyll-theme-modernist
+
+# Handling Reading
+# safe                : false
+# include             : [".htaccess"]
+# keep_files          : [".git", ".svn"]
+# markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+# strict_front_matter : false
+
+# liquid:
+#   error_mode        : warn
+#   strict_filters    : false
+#   strict_variables  : false
+
+# # Markdown Processors
+# kramdown:
+#   auto_ids          : true
+#   entity_output     : as_char
+#   toc_levels        : [1, 2, 3, 4, 5, 6]
+#   smart_quotes      : lsquo,rsquo,ldquo,rdquo
+#   input             : GFM
+#   hard_wrap         : false
+#   footnote_nr       : 1
+#   show_warnings     : false
 
 # theme:
 #   favicon: '_data/icons/favicon.ico'
 #   language: 'en'
 #   logo: '_data/images/logo.svg'
-  
-# Social Accounts:
+
 extra: 
   social:
     - type: 'discord'
@@ -23,7 +48,7 @@ extra:
     - type: 'github'
       link: 'https://gitub.com/kajov'
 
-  
+
 nav:
 - Overview: 'index.md'
 - Structure menu:
