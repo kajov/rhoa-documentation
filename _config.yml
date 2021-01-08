@@ -13,10 +13,9 @@ layouts: _layouts
 data_dir: _data
 
 # Theme assets
-theme:
-  # favicon: '_data/icons/favicon.ico'
-  name: jekyll-theme-modernist
-  # logo: '_data/images/logo.svg'
+theme: jekyll-theme-modernist
+favicon: '_data/icons/favicon.ico'
+logo: '_data/images/logo.svg'
 
 # Handling Reading
 safe                : false
