@@ -24,7 +24,6 @@ data_dir: _data
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 keep_files          : [".git", ".svn"]
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter : false
@@ -45,10 +44,10 @@ liquid:
 #   footnote_nr       : 1
 #   show_warnings     : false
 
-theme:
-  favicon: '_data/icons/favicon.ico'
-  language: 'en'
-  logo: '_data/images/logo.svg'
+# theme:
+#   favicon: '_data/icons/favicon.ico'
+#   language: 'en'
+#   logo: '_data/images/logo.svg'
   
 nav:
 - Overview: 'index.md'
